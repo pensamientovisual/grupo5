@@ -11,51 +11,144 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
     </head>
     
     <body id="fondo">
         <div>
             <nav>
-                <a href="#" class="nav-enlace">Brecha de género</a>
-                <a href="#" class="nav-enlace">Nivel educacional</a>
-                <a href="#" class="nav-enlace">Educación superior</a>
-                <a href="#" class="nav-enlace">Rama de actividad</a>
-                <a href="#" class="nav-enlace">Involúcrate</a>
+                <a href="#principal" class="nav-enlace">Brecha de género</a>
+                <a href="#niveleducacional" class="nav-enlace">Nivel educacional</a>
+                <a href="#educacionsuperior" class="nav-enlace">Educación superior</a>
+                <a href="#ramadeactividad" class="nav-enlace">Rama de actividad</a>
+                <a href="#involucrate" class="nav-enlace">Involúcrate</a>
             </nav>
         </div>
 
         <div id=cuerpo>
+            
             <h1 id="principal"> BRECHA DE GÉNERO </h1> 
             <div>
                 <h2 class="subtitulo">¿Qué es?</h2>
+                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div>
+            <div id="todo">
                 <h2 class="subtitulo">Contexto nacional</h2>
+                <div id="chile">
+                    <img id="imgchile"src="Imagenes/chile.svg">
+                </div>
+                <div id="contexto">
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>    
             </div>
         
 
-            <h1 class = "titulo"> NIVEL EDUCACIONAL </h1> 
-            <div></div><div id="Simbolo_fem"><h3> Simbolo femenino </h3></div>
-            <div id= "Info"><h3> Texto con informacion </h3></div>
-            <div id="Simbolo_masc"><h3> Simbolo masculino </h3></div>
+            <h1 id= "niveleducacional" class = "titulo"> NIVEL EDUCACIONAL </h1> 
+            <div></div><div class="subtitulo" id="Simbolo_fem"><h3> Simbolo femenino </h3></div>
+            <div class="subtitulo" id= "Info">
+                <h3> Texto con informacion </h3>
+            </div>
+            <div class="subtitulo"  id="Simbolo_masc">
+                <h3> Simbolo masculino </h3>
+            </div>
 
-            <h1 class = "titulo"> EDUCACIÓN SUPERIOR  </h1> 
+            <h1 id= "educacionsuperior" class = "titulo"> EDUCACIÓN SUPERIOR  </h1> 
             <h2 class = "subtitulo">Matrículas y Titulación</h2>
-            <div class= "Información"><h3> Grafico </h3></div>
-            <div class= "Menus"><h3> Menu para seleccionar carrera </h3></div>
+            <div class="subtitulo" id= "Graf_Mat"><h3> Grafico </h3></div>
+            <div id="Menu">
+                <div class="subtitulo" id=Titulo_menu><a href="#educacionsuperior" ><h3>Selecciona una carrera</h3></a></div>
+                <div id= "Carreras">
+                    <ul>
+                        <li class="subtitulo" id="C1" ><a href="#educacionsuperior">Carrera 1</a></li>
+                        <li class="subtitulo" id="C2" ><a href="#educacionsuperior">Carrera 2</a></li>
+                        <li class="subtitulo" id="C3" ><a href="#educacionsuperior">Carrera 3</a></li>
+                        <li class="subtitulo" id="C4" ><a href="#educacionsuperior">Carrera 4</a></li>
+                    </ul>
+                </div>
+            </div>
+                
 
-            <h1 class = "titulo"> RAMA DE ACTIVIDAD </h1> 
+            <h1 id= "ramadeactividad" class = "titulo"> RAMA DE ACTIVIDAD </h1> 
+            <div id="esp">
+                <div class="rama">
+                    <img class="img" src="Imagenes/administracion.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/agricultura.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/agua v2.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/artistico.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/ciencia.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/comercio.svg">               
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/construccion.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/economia.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/educacion.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/electricidad.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/hotel.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/informacion.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/leyes.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/manufactura.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/minas.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/otros.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/salud.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/trabajo casa.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/transporte.svg">
+                </div>
+                <div class="rama">
+                    <img class="img" src="Imagenes/venta.svg">
+                </div>
+            </div>
+            <div id="esp2">
+                <div id="bloque"></div>
+            </div>
 
         </div>
 
         <div id= "testimonio">
-            <h2 class="subtitulo"> TESTIMONIO: </h2>
-            <h3> texto testimoniooooooooooooooos</h3> 
+            <h2 id= "titulotestimonio" class="subtitulo"> TESTIMONIO </h2>
+            <div class="textotestimonio">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum   </p> 
+            </div>
         </div>
 
         <div id="final">
             <h2 class="subtitulo">Como esta historia existen muchas...</h2>
-            <h1 class = "titulo"> INVOLUCRÁTE </h1> 
+            <h1 id= "involucrate" class = "titulo"> INVOLUCRÁTE </h1> 
             <div class= "Información"><h2 class = "subtitulo">¿Cómo puedo ayudar?</h2></div>
             <div class= "Información"><h2 class = "subtitulo">¿Dónde puedo ayudar?</h2></div>
         </div>
