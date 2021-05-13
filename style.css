@@ -1,0 +1,77 @@
+
+.nav-enlace{
+    display: inline-block;
+    background: #403f49;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+}
+.nav-enlace:hover{
+    background: #ff5757;
+}
+nav{
+    background: #403f49;
+    padding: 4px;
+    position: fixed;
+}
+#fondo{
+    background: #252525;
+}
+#cuerpo{
+    padding-top: 50px;
+    width: 69%;
+    display: inline-block;
+    float: left;
+}
+#testimonio{
+    background: #403f49;
+    width: 29%;
+    display: inline-block;
+    float: right;
+}
+#final{
+    background: #252525;
+    width: 100%;
+    display: inline-block;
+}
+.subtitulo{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;      
+}
+.titulo{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+#Simbolo_fem{
+    background: #fff;
+    width: 33.333%;
+    float: left;
+    display: inline-block;
+}
+#Simbolo_masc{
+    background: #fff;
+    width: 33.333%;
+    float: right;
+    display: inline-block;
+}
+#Info{
+    background: #403f49;
+    width: 33.333%;
+    display: inline-block;
+}
+.Menus{
+    background: #fff
+}
+.Información{
+    background: #403f49;
+}
+
+#principal{
+    color: #ff5757;
+    font-family: 'Karla', sans-serif;
+}
+
+
+
