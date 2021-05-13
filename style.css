@@ -140,11 +140,11 @@ nav{
     padding-top: 40px;
 }
 #contexto{
-    width: 60%;
-    display: inline-block;
+    flex: 2;
 }    
 #imgchile{
     height: 450px;
+    flex: 1;
 }
 #esp2{
     background: #252525;
@@ -161,4 +161,7 @@ nav{
 a{
     text-decoration: none;
     
+}
+#todo{
+    display: flex;
 }
