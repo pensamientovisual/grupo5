@@ -55,6 +55,7 @@ nav{
     float: left;
     display: inline-block;
     padding-bottom: 200px;
+    height: 200px;
 }
 #Simbolo_masc{
     background: #fff;
@@ -62,12 +63,14 @@ nav{
     float: right;
     display: inline-block;
     padding-bottom: 200px;
+    height: 200px;
 }
 #Info{
     background: #403f49;
     width: 33.333%;
     display: inline-block;
     padding-bottom: 200px;
+    height: 200px;
 }
 #Menu{
     background: #fff;
@@ -75,11 +78,10 @@ nav{
     display: inline-block;
     float: right;
     padding-bottom: 200px;
-    border-bottom:250px;
 }
 #Carreras{
     display: none;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
 }
 #Graf_Mat{
     background: #403f49;
@@ -129,6 +131,9 @@ nav{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     margin: 20px;
+    text-align:center;
+    font-size: 18px;
+
 }
 #titulotestimonio{
     text-align: center;
@@ -168,4 +173,9 @@ a{
 }
 #sumaesp{
     display: flex;
+}
+.persona{
+    height: 8.5%;
+    width: 8.5%;
+    display: inline-block;
 }

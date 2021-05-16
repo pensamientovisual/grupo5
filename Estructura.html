@@ -5,6 +5,7 @@
         <meta charset="utf-8"/>
         <title>Brecha de Género</title>
         <link href="style.css" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.7.0/d3.min.js"></script>
         <script type="text/javascript" src="code.js"></script>
@@ -44,7 +45,39 @@
         
 
             <h1 id= "niveleducacional" class = "titulo"> NIVEL EDUCACIONAL </h1> 
-            <div></div><div class="subtitulo" id="Simbolo_fem"><h3> Simbolo femenino </h3></div>
+            <div></div><div class="subtitulo" id="Simbolo_fem">
+                <h3> Simbolo femenino </h3>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img  src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+            </div>
             <div class="subtitulo" id= "Info">
                 <h3> Texto con informacion </h3>
             </div>
@@ -59,10 +92,10 @@
                 <div class="subtitulo" id=Titulo_menu><a href="#educacionsuperior" ><h3>Selecciona una carrera</h3></a></div>
                 <div id= "Carreras">
                     <ul>
-                        <li class="subtitulo" id="C1" ><a href="#educacionsuperior">Carrera 1</a></li>
-                        <li class="subtitulo" id="C2" ><a href="#educacionsuperior">Carrera 2</a></li>
-                        <li class="subtitulo" id="C3" ><a href="#educacionsuperior">Carrera 3</a></li>
-                        <li class="subtitulo" id="C4" ><a href="#educacionsuperior">Carrera 4</a></li>
+                        <li class="menu-carrera" id="C1" ><a href="#educacionsuperior">Carrera 1</a></li>
+                        <li class="menu-carrera" id="C2" ><a href="#educacionsuperior">Carrera 2</a></li>
+                        <li class="menu-carrera" id="C3" ><a href="#educacionsuperior">Carrera 3</a></li>
+                        <li class="menu-carrera" id="C4" ><a href="#educacionsuperior">Carrera 4</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,9 +106,11 @@
                 <div id="esp">
                     <div class="rama">
                         <img class="img" src="Imagenes/administracion.svg">
+                        <!--id="Actividades de servicios administrativo y de apoyo" phombres="48" pmujeres="52"-->
                     </div>
                     <div class="rama">
                         <img class="img" src="Imagenes/agricultura.svg">
+                        <!--id="Agricultura, ganadería, silvicultura y pesca" phombres="76" pmujeres="24"-->
                     </div>
                     <div class="rama">
                         <img class="img" src="Imagenes/agua v2.svg">
@@ -133,7 +168,9 @@
                     </div>
                 </div>
                 <div id="esp2">
-                    <div id="bloque"></div>
+                    <div id="bloque">
+                        <h3 id=Nombre_Rama></h3>
+                    </div>
                 </div>
             </div>
 
