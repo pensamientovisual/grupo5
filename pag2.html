@@ -52,25 +52,56 @@
 -->
         <div id="parte2">
             <h1 id='titulo_nivel_educacional' class="titulo_principal">NIVEL EDUCACIONAL</h1>
-            
-            <div class="cont_menu_educacion">
+            <div id="niv-ed">
+                <div  id="selector-niv-ed" class="cont_menu_educacion">
 
-                <div  class="cont_enlace_educacion">
-                    <div id="selecionar_nivel"class="seleciona_nivel">
-                        <p>SELECCIONA UN NIVEL EDUCACIONAL</p>
+                    <div  class="cont_enlace_educacion">
+                        <div id="selecionar_nivel"class="seleciona_nivel">
+                            <p>SELECCIONA UN NIVEL EDUCACIONAL</p>
+                        </div>
+                        <div class="nivel">
+                            <a href="#sin_educacion">Sin Educación - Preescolar</a> 
+                            <a href="#primaria">Primaria</a> 
+                            <a href="#secundaria">Secundaria</a> 
+                            <a href="#tecnica">Técnica</a>  
+                            <a href="#universitaria">Universitaria</a> 
+                            <a href="#postgrado">Postgrado</a>    
+                        </div>
                     </div>
-                    <div class="nivel">
-                        <a href="#">Sin Educación - Preescolar</a> 
-                        <a href="#">Primaria</a> 
-                        <a href="#">Secundaria</a> 
-                        <a href="#">Técnica</a>  
-                        <a href="#">Universitaria</a> 
-                        <a href="#">Postgrado</a>    
-                    </div>
+                </div>            
+            
+                <div id='graficos_educacion'>
+                    <ul class="slider">
+                        <li id="sin_educacion" class="personas">
+                            <img id="foto_sin_educacion"src="Imagenes/Sin_educacion.svg"> 
+                        
+                        </li>
+
+                        <li id="primaria" class="personas">
+                            <img id="foto_primaria"src="Imagenes/Primaria.svg">
+                        </li>
+
+                        <li id="secundaria" class="personas">
+                            <img id="foto_secundaria"src="Imagenes/Secundaria.svg">
+                        </li>
+
+                        <li id="tecnica" class="personas">
+                            <img id="foto_tecnica"src="Imagenes/Tecnica.svg">
+                        </li>
+
+                        <li id="universitaria" class="personas">
+                            <img id="foto_universitaria"src="Imagenes/Universitaria.svg">
+                        </li>
+
+                        <li id="postgrado" class="personas">
+                            <img id="foto_postgrado"src="Imagenes/Postgrado.svg">
+                        </li>
+
+                    </ul>
+                
+
                 </div>
-            </div>            
-            
-
+            </div>
 
         </div>  
 
@@ -115,8 +146,14 @@
                             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
                         
                         // create 2 data_set
-                        var data1 = {a: 45, b: 55}
-                        var data2 = {a: 30, b: 70}
+                        var data1 = {a: 48.96, b: 51.04}
+                        var data2 = {a: 22.34, b: 77.66}
+                        var data3 = {a: 54.75, b:45.25}
+                        var data4 = {a:75.19, b:24.81}
+                        var data5 = {a:53.22, b:46.78}
+                        var data6 = {a:19.23, b:80.77}
+                        var data7 = {a:74.99, b:24.01}
+                        var data8 = {a:46.47, b:53.53}
                         
                         // set the color scale
                         var color = d3.scaleOrdinal()
@@ -141,8 +178,6 @@
                             .enter()
                             .append('path')
                             .merge(u)
-                            .transition()
-                            .duration(1000)
                             .attr('d', d3.arc()
                               .innerRadius(0)
                               .outerRadius(radius)
@@ -179,18 +214,19 @@
                         <div class="carreras">
                             <a onclick="update(data1)" href="#selecionar_carrera">Agricultura</a> 
                             <a onclick="update(data2)" href="#selecionar_carrera">Ciencias</a> 
-                            <a href="#">Ciencias sociales, Derecho y Enseñanza Comercial</a> 
-                            <a href="#">Educación</a>  
-                            <a href="#">Humanidades</a> 
-                            <a href="#">Ingeniería, Industria y Construcción</a>    
-                            <a href="#">Salud y Servicios Sociales</a> 
-                            <a href="#">Servicios</a> 
+                            <a onclick="update(data3)" href="#selecionar_carrera">Ciencias sociales, Derecho y Enseñanza Comercial</a> 
+                            <a onclick="update(data4)" href="#selecionar_carrera">Educación</a>  
+                            <a onclick="update(data5)" href="#selecionar_carrera">Humanidades</a> 
+                            <a onclick="update(data6)" href="#selecionar_carrera">Ingeniería, Industria y Construcción</a>    
+                            <a onclick="update(data7)" href="#selecionar_carrera">Salud y Servicios Sociales</a> 
+                            <a onclick="update(data8)" href="#selecionar_carrera">Servicios</a> 
                         </div>
                     </div>
                 </div>
 
                 <div id="titulacion" class = "subtitulo">
                     <h2>Titulación</h2>
+                   
                 </div>
             </div>
 <!--
@@ -208,7 +244,10 @@
     
 -->       
         <div id="parte4">
-            <h1 class="titulo_principal">RAMA DE ACTIVIDAD</h1>
+            <h1  id='rama_de_actividad' class="titulo_principal">RAMA DE ACTIVIDAD</h1>
+            <div id="ramaactividad">
+                <img src="Imagenes/imagen rama act.svg">
+            </div>
         </div>
  <!--
 

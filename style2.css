@@ -7,6 +7,7 @@
     padding: 10px 30px;
     text-decoration: none;
     font-family:'Karla', sans-serif;
+    opacity: 100%;
     
 }
 .nav_enlace:hover{
@@ -16,7 +17,7 @@ nav{
     background: #403f49;
     padding: 4px;
     width: 70%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
     position: fixed;
     border: 3px solid #252525;
@@ -58,7 +59,9 @@ nav{
 #titulo_educacion_superior{
     padding: 110px 0px 0px 0px; 
 }
-
+#rama_de_actividad{
+    padding: 110px 0px 0px 0px; 
+}
 .cont_menu{
     width: 400px;
     margin: 50px auto ;
@@ -134,8 +137,9 @@ nav{
 .cont_menu_educacion{
     width: 400px;
     margin: 50px auto ;
-    background: #403f49;
+    background: #252525;
     text-align: center;;
+    
 }
     
 .cont_menu_educacion .cont_enlace_educacion{
@@ -177,124 +181,55 @@ nav{
     padding: 3px 15px;
 }
 
-.image6
-{
-	background-image : url(image6.png);
-	background-repeat : no-repeat;
+
+ul.slider{
+    position: relative; 
+    width: 480px;
+    height: 480px;
 }
-.image1
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .6s;
+    opacity: 0;
 }
-.image17
-{
-	background-image : url(image17.png);
-	background-repeat : no-repeat;
+ul.slider li img{
+    width: 480px;
+    height: 480px;
 }
-.image7
-{
-	background-image : url(image7.png);
-	background-repeat : no-repeat;
+
+ul.slider li:first-child{
+    opacity: 1;
 }
-.image18
-{
-	background-image : url(image18.png);
-	background-repeat : no-repeat;
+
+ul.slider li:target{
+    opacity: 1;
 }
-.st0
-{
+
+
+
+
+#ramaactividad{
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-.image19
-{
-	background-image : url(image19.png);
-	background-repeat : no-repeat;
+#niv-ed{
+    display: flex;
 }
-.image8
-{
-	background-image : url(image8.png);
-	background-repeat : no-repeat;
+#selector-niv-ed{
+    flex:1;
 }
-.image9
-{
-	background-image : url(image9.png);
-	background-repeat : no-repeat;
+#graficos_educacion{
+    flex:1;
+    justify-content: center;
 }
-.image15
-{
-	background-image : url(image15.png);
-	background-repeat : no-repeat;
-}
-.image16
-{
-	background-image : url(image16.png);
-	background-repeat : no-repeat;
-}
-.image3
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-}
-.st1
-{
-	background : #403F49;
-	background : rgba(64, 63, 73, 1);
-}
-.image10
-{
-	background-image : url(image10.png);
-	background-repeat : no-repeat;
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-}
-.image2
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-}
-.image11
-{
-	background-image : url(image11.png);
-	background-repeat : no-repeat;
-}
-.image12
-{
-	background-image : url(image12.png);
-	background-repeat : no-repeat;
-}
-.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-}
-.st2
-{
-	background : #FFFFFF;
-	background : rgba(255, 255, 255, 1);
-	border-radius : 3px 3px 0px 0px  / 0px;
-	-moz-border-radius : 3px 3px 0px 0px  / 0px;
-	-webkit-border-radius : 3px 3px 0px 0px  / 0px;
-}
-.image13
-{
-	background-image : url(image13.png);
-	background-repeat : no-repeat;
-}
-.image
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-}
-.image14
-{
-	background-image : url(image14.png);
-	background-repeat : no-repeat;
-}
-.st3
-{
-	background : #FFFFFF;
-	background : rgba(255, 255, 255, 1);
+
+ul, li{
+    list-style: none;
 }
