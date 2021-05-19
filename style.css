@@ -178,4 +178,43 @@ a{
     height: 8.5%;
     width: 8.5%;
     display: inline-block;
+    fill: #49ada4;
+}
+
+.menu-carrera {
+    text-decoration: none;
+    color: red;
+}
+
+.cont-menu{
+    width: 400px;
+    margin: 50px auto ;
+    background: #403f49;
+    border: 10px solid white;
+}
+    
+.cont-menu .cont-enlace{
+    box-shadow: 0px 0px 2px 1px white;
+
+}
+
+.cont-menu .cont-enlace .seleciona-carrera{
+    display: flex;
+    justify-content: space-between;
+    background-color: #403f49;
+    color: #fff;
+    padding: 13px 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cont-menu .cont-enlace .carreras a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #403f49;
+}
+.cont-menu .cont-enlace .carreras a:hover{
+    background-color: #7a7980;
 }

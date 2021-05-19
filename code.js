@@ -71,3 +71,13 @@ $(document).ready(function(){
 
 
 })
+
+// constInfoPagina = {
+//     {
+//         nombre: fsdakhfdsa,
+//         cantidadCLicks: 565,
+
+//     }
+// }
+
+// .json

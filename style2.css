@@ -1,0 +1,300 @@
+
+
+.nav_enlace{
+    display: inline-block;
+    background: #403f49;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family:'Karla', sans-serif;
+    
+}
+.nav_enlace:hover{
+    background: #ff5757;
+}
+nav{
+    background: #403f49;
+    padding: 4px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: fixed;
+    border: 3px solid #252525;
+}
+#fondo{
+    background: #252525;
+}
+
+.titulo_principal{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    margin-left: 20px;
+}
+#cont-quees{
+    display: flex;
+}
+#que_es{
+    margin-left: 20px;
+    flex: 1;
+}
+.texto{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitulo{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;    
+    
+}
+#brecha_genero{
+    font-size: 45px;
+    color: #ff5757;
+    padding: 110px 0px 0px 0px;
+}
+#titulo_nivel_educacional{
+    padding: 110px 0px 0px 0px; 
+}
+#titulo_educacion_superior{
+    padding: 110px 0px 0px 0px; 
+}
+
+.cont_menu{
+    width: 400px;
+    margin: 50px auto ;
+    background: #403f49;
+    text-align: center;;
+}
+    
+.cont_menu .cont_enlace{
+    box-shadow: 0px 0px 2px 1px #252525;
+
+}
+
+.cont_menu .cont_enlace .seleciona_carrera{
+    display: flex;
+    justify-content: center;
+    background-color:#ff5757;
+    color: #fff;
+    padding: 3px 15px;
+    cursor: pointer;
+    
+    user-select: none;
+}
+
+.cont_menu .cont_enlace .carreras a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #403f49;
+}
+.cont_menu .cont_enlace .carreras a:hover{
+    background-color: #7a7980;
+}
+
+#matriculas_titulacion{
+    margin-left: 20px ;
+}
+.cont_menu{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#selecionar_carrera{
+    text-align: center;
+}
+#fotochilito{
+    width: 550px;
+    flex:1;
+    height: 500px;
+}
+
+#graficosed{
+    display: flex;
+}
+#selector1{
+    flex: 1;
+}
+#matriculas{
+    text-align: center;
+    flex: 1;
+}
+#titulacion{
+    text-align: center;
+    flex: 1;
+}
+
+
+
+
+
+.cont_menu_educacion{
+    width: 400px;
+    margin: 50px auto ;
+    background: #403f49;
+    text-align: center;;
+}
+    
+.cont_menu_educacion .cont_enlace_educacion{
+    box-shadow: 0px 0px 2px 1px #252525;
+
+}
+
+.cont_menu_educacion .cont_enlace_educacion .seleciona_nivel a{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ff5757;
+    color: #fff;
+    padding: 3px 15px;
+    cursor: pointer;
+    
+    user-select: none;
+}
+
+.cont_menu_educacion .cont_enlace_educacion .nivel a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #403f49;
+}
+.cont_menu_educacion .cont_enlace_educacion .nivel a:hover{
+    background-color: #7a7980;
+}
+
+.cont_menu_educacion{
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.seleciona_nivel{
+    background: #ff5757;
+    padding: 3px 15px;
+}
+
+.image6
+{
+	background-image : url(image6.png);
+	background-repeat : no-repeat;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+}
+.image17
+{
+	background-image : url(image17.png);
+	background-repeat : no-repeat;
+}
+.image7
+{
+	background-image : url(image7.png);
+	background-repeat : no-repeat;
+}
+.image18
+{
+	background-image : url(image18.png);
+	background-repeat : no-repeat;
+}
+.st0
+{
+}
+.image19
+{
+	background-image : url(image19.png);
+	background-repeat : no-repeat;
+}
+.image8
+{
+	background-image : url(image8.png);
+	background-repeat : no-repeat;
+}
+.image9
+{
+	background-image : url(image9.png);
+	background-repeat : no-repeat;
+}
+.image15
+{
+	background-image : url(image15.png);
+	background-repeat : no-repeat;
+}
+.image16
+{
+	background-image : url(image16.png);
+	background-repeat : no-repeat;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+}
+.st1
+{
+	background : #403F49;
+	background : rgba(64, 63, 73, 1);
+}
+.image10
+{
+	background-image : url(image10.png);
+	background-repeat : no-repeat;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+}
+.image11
+{
+	background-image : url(image11.png);
+	background-repeat : no-repeat;
+}
+.image12
+{
+	background-image : url(image12.png);
+	background-repeat : no-repeat;
+}
+.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+}
+.st2
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-radius : 3px 3px 0px 0px  / 0px;
+	-moz-border-radius : 3px 3px 0px 0px  / 0px;
+	-webkit-border-radius : 3px 3px 0px 0px  / 0px;
+}
+.image13
+{
+	background-image : url(image13.png);
+	background-repeat : no-repeat;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+}
+.image14
+{
+	background-image : url(image14.png);
+	background-repeat : no-repeat;
+}
+.st3
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+}

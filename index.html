@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.7.0/d3.min.js"></script>
         <script type="text/javascript" src="code.js"></script>
+        <script src="./grafico.js"></script>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
         </style>
@@ -16,7 +17,6 @@
             @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         </style>
     </head>
-    
     <body id="fondo">
         <div>
             <nav>
@@ -47,49 +47,52 @@
             <h1 id= "niveleducacional" class = "titulo"> NIVEL EDUCACIONAL </h1> 
             <div></div><div class="subtitulo" id="Simbolo_fem">
                 <h3> Simbolo femenino </h3>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img  src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
-                <div class="persona">
-                    <img src="Imagenes/persona.svg">
-                </div>
             </div>
             <div class="subtitulo" id= "Info">
                 <h3> Texto con informacion </h3>
             </div>
             <div class="subtitulo"  id="Simbolo_masc">
                 <h3> Simbolo masculino </h3>
+                <div class="persona">
+                    <img class="imgpersona"src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                <div class="persona">
+                    <img src="Imagenes/persona.svg">
+                </div>
+                
             </div>
-
+       
             <h1 id= "educacionsuperior" class = "titulo"> EDUCACIÓN SUPERIOR  </h1> 
             <h2 class = "subtitulo">Matrículas y Titulación</h2>
             <div class="subtitulo" id= "Graf_Mat"><h3> Grafico </h3></div>
-            <div id="Menu">
-                <div class="subtitulo" id=Titulo_menu><a href="#educacionsuperior" ><h3>Selecciona una carrera</h3></a></div>
+            
+            <div id="Menu" class="cont-menu">
+                
+                <div class="subtitulo" id="Titulo_menu"><a href="#educacionsuperior" ><h3>Selecciona una carrera</h3></a></div>
                 <div id= "Carreras">
                     <ul>
                         <li class="menu-carrera" id="C1" ><a href="#educacionsuperior">Carrera 1</a></li>
@@ -99,7 +102,7 @@
                     </ul>
                 </div>
             </div>
-                
+                       
 
             <h1 id= "ramadeactividad" class = "titulo"> RAMA DE ACTIVIDAD </h1> 
             <div id="sumaesp">
@@ -189,12 +192,35 @@
             <div class= "Información"><h2 class = "subtitulo">¿Cómo puedo ayudar?</h2></div>
             <div class= "Información"><h2 class = "subtitulo">¿Dónde puedo ayudar?</h2></div>
         </div>
+
+
+
+
+        <div class="cont-menu">
+
+            <div class="cont-enlace">
+                <div class="seleciona-carrera">
+                    <p> seleciona una carrera</p>
+                </div>
+                <div class="carreras">
+                    <a href="#">Carrera1</a> 
+                    <a href="#">Carrera2</a> 
+                    <a href="#">Carrera3</a> 
+                    <a href="#">Carrera4</a> 
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
     </body>
-
-
-     
-
-
-
-
 </html>
