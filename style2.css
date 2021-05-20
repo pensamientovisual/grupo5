@@ -29,19 +29,20 @@ nav{
 .titulo_principal{
     color: #fff;
     font-family: 'Karla', sans-serif;
-    margin-left: 20px;
 }
 #cont-quees{
     display: flex;
 }
 #que_es{
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-right: 50px;
     flex: 1;
 }
 .texto{
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
+
 .subtitulo{
     color: #fff;
     font-family: 'Karla', sans-serif;
@@ -130,9 +131,21 @@ nav{
     flex: 1;
 }
 
-
-
-
+#parte1{
+    margin-left: 20px;
+}
+#parte2{
+    margin-left: 20px;
+}
+#parte3{
+    margin-left: 20px;
+}
+#parte4{
+    margin-left: 20px;
+}
+#parte5{
+    margin-left: 20px;
+}
 
 .cont_menu_educacion{
     width: 400px;
@@ -193,10 +206,11 @@ ul.slider li{
     top: 0;
     width: inherit;
     height: inherit;
+    /*
     transition: opacity .6s;
-    opacity: 0;
+    opacity: 0;*/
 }
-ul.slider li img{
+/*ul.slider li img{
     width: 480px;
     height: 480px;
 }
@@ -207,14 +221,14 @@ ul.slider li:first-child{
 
 ul.slider li:target{
     opacity: 1;
-}
+}*/
 
 
 
 
 #ramaactividad{
-    height: 700px;
-    width: 700px;
+    height: 650px;
+    width: 650px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -224,12 +238,19 @@ ul.slider li:target{
 }
 #selector-niv-ed{
     flex:1;
+    margin-left: 80;
+    margin-top: 100;
 }
 #graficos_educacion{
-    flex:1;
+    flex:2;
     justify-content: center;
+    margin-left: 200;
 }
 
 ul, li{
     list-style: none;
-}
+}   
+#imagen_testimonio1{
+    height: 100px;
+    width: 500px;
+} 
