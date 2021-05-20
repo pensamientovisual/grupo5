@@ -227,8 +227,8 @@ ul.slider li:target{
 
 
 #ramaactividad{
-    height: 650px;
-    width: 650px;
+    height: 650;
+    width: 650;
     display: flex;
     justify-content: center;
     align-content: center;

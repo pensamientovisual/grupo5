@@ -14,80 +14,62 @@ $(document).ready(function(){
     var tec=$("#tec")
     var uni =$("#uni")
     var post=$("#post")
-    var im1=$("#im_1")
-    var im2=$("#im_2")
-    var im3=$("#im_3")
-    var im4=$("#im_4")
-    var im5=$("#im_5")
-    var im6=$("#im_6")
-    var im7=$("#im_7")
-    var im8=$("#im_8")
-    var im9=$("#im_9")
-    var im10=$("#im_10")
-    var im11=$("#im_11")
-    var im12=$("#im_12")
-    var im13=$("#im_13")
-    var im14=$("#im_14")
-    var im15=$("#im_15")
-    var im16=$("#im_16")
-    var im17=$("#im_17")
-    var im18=$("#im_18")
-    var im19=$("#im_19")
-    var im20=$("#im_20")
-    var im21=$("#im_21")
+    var circulos=$(".circ")
 
 
 
-    
+    circulos.mouseenter(function(){
+        $(this).css('background','#red');
+    });
 
     sined.click(function(){
-        $("#sin_educacion").fadeTo("fast",1)
-        $("#primaria").fadeTo("fast",0)
-        $("#secundaria").fadeTo("fast",0)
-        $("#tecnica").fadeTo("fast",0)
-        $("#universitaria").fadeTo("fast",0)
-        $("#postgrado").fadeTo("fast",0)
-    })
+        $("#sin_educacion").fadeTo("fast",1);
+        $("#primaria").fadeTo("fast",0);
+        $("#secundaria").fadeTo("fast",0);
+        $("#tecnica").fadeTo("fast",0);
+        $("#universitaria").fadeTo("fast",0);
+        $("#postgrado").fadeTo("fast",0);
+    });
     prim.click(function(){
-        $("#sin_educacion").fadeTo("fast",0)
-        $("#primaria").fadeTo("fast",1)
-        $("#secundaria").fadeTo("fast",0)
-        $("#tecnica").fadeTo("fast",0)
-        $("#universitaria").fadeTo("fast",0)
-        $("#postgrado").fadeTo("fast",0)
-    })
+        $("#sin_educacion").fadeTo("fast",0);
+        $("#primaria").fadeTo("fast",1);
+        $("#secundaria").fadeTo("fast",0);
+        $("#tecnica").fadeTo("fast",0);
+        $("#universitaria").fadeTo("fast",0);
+        $("#postgrado").fadeTo("fast",0);
+    });
     sec.click(function(){
-        $("#sin_educacion").fadeTo("fast",0)
-        $("#primaria").fadeTo("fast",0)
-        $("#secundaria").fadeTo("fast",1)
-        $("#tecnica").fadeTo("fast",0)
-        $("#universitaria").fadeTo("fast",0)
-        $("#postgrado").fadeTo("fast",0)
-    })
+        $("#sin_educacion").fadeTo("fast",0);
+        $("#primaria").fadeTo("fast",0);
+        $("#secundaria").fadeTo("fast",1);
+        $("#tecnica").fadeTo("fast",0);
+        $("#universitaria").fadeTo("fast",0);
+        $("#postgrado").fadeTo("fast",0);
+    });
     tec.click(function(){
-        $("#sin_educacion").fadeTo("fast",0)
-        $("#primaria").fadeTo("fast",0)
-        $("#secundaria").fadeTo("fast",0)
-        $("#tecnica").fadeTo("fast",1)
-        $("#universitaria").fadeTo("fast",0)
-        $("#postgrado").fadeTo("fast",0)
-    })
+        $("#sin_educacion").fadeTo("fast",0);
+        $("#primaria").fadeTo("fast",0);
+        $("#secundaria").fadeTo("fast",0);
+        $("#tecnica").fadeTo("fast",1);
+        $("#universitaria").fadeTo("fast",0);
+        $("#postgrado").fadeTo("fast",0);
+    });
     uni.click(function(){
-        $("#sin_educacion").fadeTo("fast",0)
-        $("#primaria").fadeTo("fast",0)
-        $("#secundaria").fadeTo("fast",0)
-        $("#tecnica").fadeTo("fast",0)
-        $("#universitaria").fadeTo("fast",1)
-        $("#postgrado").fadeTo("fast",0)
-    })
+        $("#sin_educacion").fadeTo("fast",0);
+        $("#primaria").fadeTo("fast",0);
+        $("#secundaria").fadeTo("fast",0);
+        $("#tecnica").fadeTo("fast",0);
+        $("#universitaria").fadeTo("fast",1);
+        $("#postgrado").fadeTo("fast",0);
+    });
     post.click(function(){
-        $("#sin_educacion").fadeTo("fast",0)
-        $("#primaria").fadeTo("fast",0)
-        $("#secundaria").fadeTo("fast",0)
-        $("#tecnica").fadeTo("fast",0)
-        $("#universitaria").fadeTo("fast",0)
-        $("#postgrado").fadeTo("fast",1)
-    })
+        $("#sin_educacion").fadeTo("fast",0);
+        $("#primaria").fadeTo("fast",0);
+        $("#secundaria").fadeTo("fast",0);
+        $("#tecnica").fadeTo("fast",0);
+        $("#universitaria").fadeTo("fast",0);
+        $("#postgrado").fadeTo("fast",1);
+    });
     
 /*
     var width= 300
