@@ -7,6 +7,8 @@
   font-family: "Karla", sans-serif;
   opacity: 100%;
 }
+
+
 .nav_enlace:hover {
   background: #49ada4;
 }
@@ -18,6 +20,7 @@ nav {
   margin-left: 20px;
   position: fixed;
   border: 3px solid #252525;
+  z-index: 10;
 }
 #fondo {
   background: #252525;
@@ -58,6 +61,7 @@ nav {
 }
 #rama_de_actividad {
   padding: 90px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
 }
 .cont_menu {
   width: 400px;
@@ -68,12 +72,14 @@ nav {
 
 .cont_menu .cont_enlace {
   box-shadow: 0px 0px 2px 1px #252525;
+  margin-top: 20px;
+  
 }
 
 .cont_menu .cont_enlace .seleciona_carrera {
   display: flex;
   justify-content: center;
-  background-color: #49ada4;
+  background-color: #49ADA4;
   color: #fff;
   padding: 3px 15px;
   cursor: pointer;
@@ -94,7 +100,7 @@ nav {
 }
 
 .selected {
-  background-color: #49ada4 !important;
+  background-color: #61BBB5 !important;
 }
 
 #matriculas_titulacion {
@@ -255,4 +261,39 @@ li {
 
 #testimonio1 {
   margin-top: 80px;
+}
+.cont_menu{
+  background-color: #252525;
+}
+.ddimgtooltip{
+  display:none;
+  position:absolute;
+  border:1px #252525;
+  background:white;
+  color: black;
+  z-index:2000;
+  padding: 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+#info_fem{
+  display:none;
+}
+#info_masc{
+  display:none;
+}
+#brecha{
+  display:none;
+}
+#tit_info{
+  display:none;
+}
+#tex_fem{
+  display:none;
+}
+#tex_masc{
+  display:none;
+}
+#text_brecha{
+  display:none;
 }

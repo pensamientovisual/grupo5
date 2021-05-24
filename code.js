@@ -16,15 +16,22 @@ $(document).ready(function(){
     var post=$("#post")
     var circulos=$(".circ")
     var grande=$("#im_20")
-    var fem=$("#fem")
-    var masc=$("#masc")
-
+    
 
 
     circulos.mouseenter(function(){
         $(this).css('opacity','0.5');
         var nombrerama=$(this).attr("id");
-        $("#cambio").text(nombrerama)
+        $("#cambio").text(nombrerama);
+        $("#tit_info").hide();
+        $("#info_fem").hide();
+        $("#info_masc").hide();
+        $("#brecha").hide();
+        $("#tex_fem").hide();
+        $("#tex_masc").hide();
+        $("#text_brecha").hide();
+
+
     });
     circulos.mouseleave(function(){
         $(this).css('opacity','1');
@@ -32,7 +39,22 @@ $(document).ready(function(){
     });
     circulos.click(function(){
         var info=$(this).attr("data-name");
-        $("#cambio").text(info);
+        var fem=$(this).attr("data-fem");
+        var masc=$(this).attr("data-masc");
+        var brecha=$(this).attr("data-brecha");
+        $("#tit_info").show();
+        $("#info_fem").show();
+        $("#info_masc").show();
+        $("#brecha").show();
+        $("#tex_fem").show();
+        $("#tex_masc").show();
+        $("#text_brecha").show();
+        $("#tit_info").text(info);
+        $("#info_fem").text(fem);
+        $("#info_masc").text(masc);
+        $("#brecha").text(brecha);
+        $("#cambio").text("");
+
     })
     sined.click(function(){
         $("#sin_educacion").fadeTo("fast",1);
