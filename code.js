@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 
     circulos.mouseenter(function(){
-        $(this).css('background','#red');
+        $(this).css('fill','#red');
     });
 
     sined.click(function(){
