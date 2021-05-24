@@ -346,7 +346,7 @@
                         function update(data_titul, data_matr, id) {
                         // Update Titulacion
                           // Update text
-                          $("#porcentaje_titul").text(`${Math.round(data_titul.e)}% mujeres.`)
+                          $("#porcentaje_titul").text(`${Math.round(data_titul.c)}% mujeres.`)
                           // Compute the position of each group on the pie:
                           var pie = d3.pie()
                             .value(function(d) {return d.value; })
@@ -376,7 +376,7 @@
                             .remove()
                         // Update Matriculas
                         // Update percentage text
-                        $("#porcentaje_matr").text(`${Math.round(data_matr.b)}% mujeres.`)
+                        $("#porcentaje_matr").text(`${Math.round(data_matr.a)}% mujeres.`)
                         // Compute the position of each group on the pie:
                         pie = d3.pie()
                         .value(function(d) {return d.value; })
@@ -415,10 +415,12 @@
                             .remove()
 
                         // Highlight button
+                        // clear highlights
                         for (const button of buttons) {
                             $(button).removeClass("selected");
                         }
-                        console.debug(id);
+
+                        // add highlight
                         $(id).addClass("selected");
                         }
                         
@@ -579,7 +581,7 @@
                         <path class="cls-2" d="M904.89,300.88l1.29-2.71A40.74,40.74,0,0,1,883,261.55a40.11,40.11,0,0,1,4.34-18.26l-2.67-1.35A43,43,0,0,0,880,261.55,43.72,43.72,0,0,0,904.89,300.88Z" />
                         <path class="cls-2" d="M942.19,300.88a43.1,43.1,0,0,0,9.32-6l-1.92-2.3a40.76,40.76,0,0,1-8.69,5.59Z" />
                     </g>
-                    <g id="im_16" class="circ" data-name="e">
+                    <g id="im_16" class="circ" data-name="d">
                         <circle class="cls-1" cx="991.09" cy="395.69" r="65" />
                         <path
                             class="cls-2"
