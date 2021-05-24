@@ -1,257 +1,258 @@
-
-
-.nav_enlace{
-    display: inline-block;
-    background: #403f49;
-    color: #fff;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-family:'Karla', sans-serif;
-    opacity: 100%;
-    
+.nav_enlace {
+  display: inline-block;
+  background: #403f49;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  opacity: 100%;
 }
-.nav_enlace:hover{
-    background: #49ada4;
+.nav_enlace:hover {
+  background: #49ada4;
 }
-nav{
-    background: #403f49;
-    padding: 4px;
-    width: 70%;
-    margin-top: 10px;
-    margin-left: 20px;
-    position: fixed;
-    border: 3px solid #252525;
+nav {
+  background: #403f49;
+  padding: 4px;
+  width: 70%;
+  margin-top: 10px;
+  margin-left: 20px;
+  position: fixed;
+  border: 3px solid #252525;
 }
-#fondo{
-    background: #252525;
+#fondo {
+  background: #252525;
 }
 
-.titulo_principal{
-    color: #fff;
-    font-family: 'Karla', sans-serif;
+.titulo_principal {
+  color: #fff;
+  font-family: "Karla", sans-serif;
 }
-#cont-quees{
-    display: flex;
+#cont-quees {
+  display: flex;
 }
-#que_es{
-    margin-left: 5px;
-    margin-right: 50px;
-    flex: 1;
+#que_es {
+  margin-left: 5px;
+  margin-right: 50px;
+  flex: 7;
 }
-.texto{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-
-.subtitulo{
-    color: #fff;
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;    
-    
-}
-#brecha_genero{
-    font-size: 45px;
-    color: #49ada4;
-    padding: 110px 0px 0px 0px;
-}
-#titulo_nivel_educacional{
-    padding: 110px 0px 0px 0px; 
-}
-#titulo_educacion_superior{
-    padding: 110px 0px 0px 0px; 
-}
-#rama_de_actividad{
-    padding: 110px 0px 0px 0px; 
-}
-.cont_menu{
-    width: 400px;
-    margin: 50px auto ;
-    background: #403f49;
-    text-align: center;;
-}
-    
-.cont_menu .cont_enlace{
-    box-shadow: 0px 0px 2px 1px #252525;
-
+.texto {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
-.cont_menu .cont_enlace .seleciona_carrera{
-    display: flex;
-    justify-content: center;
-    background-color:#49ada4;
-    color: #fff;
-    padding: 3px 15px;
-    cursor: pointer;
-    
-    user-select: none;
+.subtitulo {
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+#brecha_genero {
+  font-size: 45px;
+  color: #fff;
+  padding: 90px 0px 0px 0px;
+}
+#titulo_nivel_educacional {
+  padding: 90px 0px 0px 0px;
+}
+#titulo_educacion_superior {
+  padding: 90px 0px 0px 0px;
+}
+#rama_de_actividad {
+  padding: 90px 0px 0px 0px;
+}
+.cont_menu {
+  width: 400px;
+  margin: 50px auto;
+  background: #403f49;
+  text-align: center;
 }
 
-.cont_menu .cont_enlace .carreras a{
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #403f49;
-}
-.cont_menu .cont_enlace .carreras a:hover{
-    background-color: #7a7980;
+.cont_menu .cont_enlace {
+  box-shadow: 0px 0px 2px 1px #252525;
 }
 
-#matriculas_titulacion{
-    margin-left: 20px ;
-}
-.cont_menu{
-    color: #fff;
-    font-family: 'Karla', sans-serif;
-    font-size: 15px;
-    text-align: center;
+.cont_menu .cont_enlace .seleciona_carrera {
+  display: flex;
+  justify-content: center;
+  background-color: #49ada4;
+  color: #fff;
+  padding: 3px 15px;
+  cursor: pointer;
+
+  user-select: none;
 }
 
-#selecionar_carrera{
-    text-align: center;
-}
-#fotochilito{
-    width: 550px;
-    flex:1;
-    height: 500px;
-}
-
-#graficosed{
-    display: flex;
-}
-#selector1{
-    flex: 1;
-}
-#matriculas{
-    text-align: center;
-    flex: 1;
-}
-#titulacion{
-    text-align: center;
-    flex: 1;
+.cont_menu .cont_enlace .carreras a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #403f49;
 }
 
-#parte1{
-    margin-left: 20px;
-}
-#parte2{
-    margin-left: 20px;
-}
-#parte3{
-    margin-left: 20px;
-}
-#parte4{
-    margin-left: 20px;
-}
-#parte5{
-    margin-left: 20px;
+.cont_menu .cont_enlace .carreras a:hover {
+  background-color: #7a7980;
 }
 
-.cont_menu_educacion{
-    width: 400px;
-    margin: 50px auto ;
-    background: #252525;
-    text-align: center;;
-    
-}
-    
-.cont_menu_educacion .cont_enlace_educacion{
-    box-shadow: 0px 0px 2px 1px #252525;
-
+.selected {
+  background-color: #49ada4 !important;
 }
 
-.cont_menu_educacion .cont_enlace_educacion .seleciona_nivel a{
-    display: flex;
-    justify-content: space-between;
-    background-color:#49ada4;
-    color: #fff;
-    padding: 3px 15px;
-    cursor: pointer;
-    
-    user-select: none;
+#matriculas_titulacion {
+  margin-left: 20px;
+}
+.cont_menu {
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 
-.cont_menu_educacion .cont_enlace_educacion .nivel a{
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #403f49;
+#selecionar_carrera {
+  text-align: center;
 }
-.cont_menu_educacion .cont_enlace_educacion .nivel a:hover{
-    background-color: #7a7980;
+#fotochilito {
+  width: 500px;
+  flex: 3;
+  height: 500px;
 }
 
-.cont_menu_educacion{
-    color: #fff;
-    font-family: 'Karla', sans-serif;
-    font-size: 15px;
-    text-align: center;
+#graficosed {
+  display: flex;
+}
+#selector1 {
+  flex: 1;
+}
+#matriculas {
+  text-align: center;
+  flex: 1;
+}
+#titulacion {
+  text-align: center;
+  flex: 1;
 }
 
-.seleciona_nivel{
-    background: #49ada4;
-    padding: 3px 15px;
+#parte1 {
+  margin-left: 20px;
+}
+#parte2 {
+  margin-left: 20px;
+}
+#parte3 {
+  margin-left: 20px;
+}
+#parte4 {
+  margin-left: 20px;
+}
+#parte5 {
+  margin-left: 20px;
 }
 
-
-ul.slider{
-    position: relative; 
-    width: 480px;
-    height: 480px;
-}
-ul.slider li{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: inherit;
-    height: inherit;
-    /*
-    transition: opacity .6s;
-    opacity: 0;*/
-}
-/*ul.slider li img{
-    width: 480px;
-    height: 480px;
+.cont_menu_educacion {
+  width: 400px;
+  margin: 50px auto;
+  background: #252525;
+  text-align: center;
 }
 
-ul.slider li:first-child{
-    opacity: 1;
+.cont_menu_educacion .cont_enlace_educacion {
+  box-shadow: 0px 0px 2px 1px #252525;
 }
 
-ul.slider li:target{
-    opacity: 1;
-}*/
+.cont_menu_educacion .cont_enlace_educacion .seleciona_nivel a {
+  display: flex;
+  justify-content: space-between;
+  background-color: #49ada4;
+  color: #fff;
+  padding: 3px 15px;
+  cursor: pointer;
 
-
-
-
-#ramaactividad{
-    height: 650;
-    width: 650;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#niv-ed{
-    display: flex;
-}
-#selector-niv-ed{
-    flex:1;
-    margin-left: 80;
-    margin-top: 100;
-}
-#graficos_educacion{
-    flex:2;
-    justify-content: center;
-    margin-left: 200;
+  user-select: none;
 }
 
-ul, li{
-    list-style: none;
-}   
-#imagen_testimonio1{
-    height: 100px;
-    width: 500px;
-} 
+.cont_menu_educacion .cont_enlace_educacion .nivel a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #403f49;
+}
+.cont_menu_educacion .cont_enlace_educacion .nivel a:hover {
+  background-color: #7a7980;
+}
 
+.cont_menu_educacion {
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.seleciona_nivel {
+  background: #49ada4;
+  padding: 3px 15px;
+}
+
+ul.slider {
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+ul.slider li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+}
+
+#ramaactividad {
+  height: 650;
+  width: 650;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#niv-ed {
+  display: flex;
+}
+#selector-niv-ed {
+  flex: 1;
+  margin-left: 80;
+  margin-top: 80;
+}
+#graficos_educacion {
+  flex: 2;
+  justify-content: center;
+  margin-left: 150;
+  margin-top: -150px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+#imagen_testimonio1 {
+  height: 100px;
+  width: 500px;
+}
+
+.audios {
+  margin-left: 20px;
+}
+
+#contexto_nacional {
+  margin-top: 50px;
+}
+
+#recorrer_la_injusticia {
+  margin-top: 50px;
+}
+#titulo_principal_pagina {
+  margin-bottom: 20px;
+}
+
+#testimonio1 {
+  margin-top: 80px;
+}

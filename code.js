@@ -23,12 +23,16 @@ $(document).ready(function(){
 
     circulos.mouseenter(function(){
         $(this).css('opacity','0.5');
+        var nombrerama=$(this).attr("id");
+        $("#cambio").text(nombrerama)
     });
     circulos.mouseleave(function(){
         $(this).css('opacity','1');
+        
     });
     circulos.click(function(){
-        $("#cambio").text("tomas vargas es el mejor ser humano existente");
+        var info=$(this).attr("data-name");
+        $("#cambio").text(info);
     })
     sined.click(function(){
         $("#sin_educacion").fadeTo("fast",1);
@@ -79,6 +83,8 @@ $(document).ready(function(){
         $("#postgrado").fadeTo("fast",1);
     });
     
+
+
 /*
     var width= 300
     height=300

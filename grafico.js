@@ -1,4 +1,4 @@
-
+/*
 var width = 450
     height = 450
     margin = 40
@@ -61,3 +61,4 @@ function update(data) {
 
 // Initialize the plot with the first dataset
 update(data1)
+ */
