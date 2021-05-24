@@ -15,13 +15,21 @@ $(document).ready(function(){
     var uni =$("#uni")
     var post=$("#post")
     var circulos=$(".circ")
+    var grande=$("#im_20")
+    var fem=$("#fem")
+    var masc=$("#masc")
 
 
 
     circulos.mouseenter(function(){
-        $(this).css('fill','#red');
+        $(this).css('opacity','0.5');
     });
-
+    circulos.mouseleave(function(){
+        $(this).css('opacity','1');
+    });
+    circulos.click(function(){
+        $("#cambio").text("tomas vargas es el mejor ser humano existente");
+    })
     sined.click(function(){
         $("#sin_educacion").fadeTo("fast",1);
         $("#primaria").fadeTo("fast",0);

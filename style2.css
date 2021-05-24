@@ -11,7 +11,7 @@
     
 }
 .nav_enlace:hover{
-    background: #ff5757;
+    background: #49ada4;
 }
 nav{
     background: #403f49;
@@ -51,7 +51,7 @@ nav{
 }
 #brecha_genero{
     font-size: 45px;
-    color: #ff5757;
+    color: #49ada4;
     padding: 110px 0px 0px 0px;
 }
 #titulo_nivel_educacional{
@@ -78,7 +78,7 @@ nav{
 .cont_menu .cont_enlace .seleciona_carrera{
     display: flex;
     justify-content: center;
-    background-color:#ff5757;
+    background-color:#49ada4;
     color: #fff;
     padding: 3px 15px;
     cursor: pointer;
@@ -163,7 +163,7 @@ nav{
 .cont_menu_educacion .cont_enlace_educacion .seleciona_nivel a{
     display: flex;
     justify-content: space-between;
-    background-color:#ff5757;
+    background-color:#49ada4;
     color: #fff;
     padding: 3px 15px;
     cursor: pointer;
@@ -190,7 +190,7 @@ nav{
 }
 
 .seleciona_nivel{
-    background: #ff5757;
+    background: #49ada4;
     padding: 3px 15px;
 }
 
@@ -254,3 +254,4 @@ ul, li{
     height: 100px;
     width: 500px;
 } 
+
