@@ -13,8 +13,8 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["", "Porcentaje femenino<br /> 51%", {background:"#403f49", width:"200px", height:"60px", color:"#fff", border:"5px #49ada4"}]
-		tooltips[1]=["", "Porcentaje masculino<br /> 49%", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[0]=["", "Porcentaje masculino<br /> 49%", {background:"#403f49", width:"200px", height:"60px", color:"#fff", border:"5px #49ada4"}]
+		tooltips[1]=["", "Porcentaje femenino<br /> 51%", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
 
 
 		return tooltips //do not remove/change this line
