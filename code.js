@@ -21,17 +21,6 @@ $(document).ready(function(){
 
     circulos.mouseenter(function(){
         $(this).css('opacity','0.5');
-        var nombrerama=$(this).attr("id");
-        $("#cambio").text(nombrerama);
-        $("#tit_info").hide();
-        $("#info_fem").hide();
-        $("#info_masc").hide();
-        $("#brecha").hide();
-        $("#tex_fem").hide();
-        $("#tex_masc").hide();
-        $("#text_brecha").hide();
-
-
     });
     circulos.mouseleave(function(){
         $(this).css('opacity','1');
@@ -53,7 +42,7 @@ $(document).ready(function(){
         $("#info_fem").text(fem);
         $("#info_masc").text(masc);
         $("#brecha").text(brecha);
-        $("#cambio").text("");
+        $("#cambio").hide();
 
     })
     sined.click(function(){

@@ -30,6 +30,16 @@ nav {
   color: #fff;
   font-family: "Karla", sans-serif;
 }
+
+#porcentaje_brecha{
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: medium;
+}
+
+
+
+
 #cont-quees {
   display: flex;
 }

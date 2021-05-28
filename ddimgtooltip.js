@@ -13,8 +13,28 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["", "Porcentaje masculino<br /> 49%", {background:"#403f49", width:"200px", height:"60px", color:"#fff", border:"5px #49ada4"}]
-		tooltips[1]=["", "Porcentaje femenino<br /> 51%", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[0]=["", "Porcentaje masculino", {background:"#403f49", width:"200px", height:"60px", color:"#fff", border:"5px #49ada4"}]
+		tooltips[1]=["", "Porcentaje femenino", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[2]=["", "Actividades de servicios administrativo y de apoyo", {background:"#403f49", width:"200px", height:"110px", color: "#fff", border:"5px"}]
+		tooltips[3]=["", "Agricultura, ganadería, silvicultura y pesca", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[4]=["", "Suministro de agua; evacuación de aguas", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[5]=["", "Actividades artísticas, de entretenimiento", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[6]=["", "Actividades financieras y de seguros", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
+		tooltips[7]=["", "Construcción", {background:"#403f49", width:"200px", height:"40px", color: "#fff", border:"5px"}]
+		tooltips[8]=["", "Comercio al por mayor y al por menor", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[9]=["", "Suministro de electricidad, gas, vapor", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[10]=["", "Información y comunicaciones", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[11]=["", "Administración pública y defensa", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[12]=["", "Industrias manufactureras", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[13]=["", "Explotación de minas y canteras", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[14]=["", "Otras actividades de servicios", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[15]=["", "Actividades de atención de la salud humana", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
+		tooltips[16]=["", "Actividades de los hogares como empleadores", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
+		tooltips[17]=["", "Transporte y almacenamiento", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[18]=["", "Actividades profesionales, científicas y técnicas", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
+		tooltips[19]=["", "Enseñanza", {background:"#403f49", width:"200px", height:"40px", color: "#fff", border:"5px"}]
+		tooltips[20]=["", "Actividades inmobiliarias<br ", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
+		tooltips[21]=["", "Actividades de alojamiento y de servicio de comidas", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
 
 
 		return tooltips //do not remove/change this line
