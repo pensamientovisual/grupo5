@@ -21,7 +21,7 @@
         <div>
             <nav id= 'navegador-principal'>
                 <a href="#parte1" class="nav_enlace">Brecha de género</a>
-                <a href="#parte2" class="nav_enlace">Años de aducaciónl</a>
+                <a href="#parte2" class="nav_enlace">Años de educación</a>
                 <a href="#parte3" class="nav_enlace">Educación superior</a>
                 <a href="#parte4" class="nav_enlace">Rama de actividad</a>
                 <a href="#parte5" class="nav_enlace">Involúcrate</a>
@@ -149,9 +149,9 @@
                     <p class="texto"> La brecha de género es una medida que muestra la distancia entre el sexo femenino y masculino frente a un mismo indicador. Esta refleja la diferencia que existe entre ambos sexos respecto a oportunidades de acceso y control de recursos sociales, económicos, culturales y políticos entre otros (Villoro, 1997, Cepal) .</p>
                     <div id="contexto_nacional">
                         <h2 class="subtitulo">Contexto nacional</h2>
-                        <p class="texto">La población chilena según el último censo realizado en Chile el 51% de la poblacion es del sexo femenino y el 49% masculino.
-                            En nuestro país, según diferentes indicadores económicos, sociales y culturales presenta una brecha de género de un 72,3 %. Esta diferencias se debe a:
-                            ¿Nivel educacional?¿Tipo de carrera estudida?¿Cantidad de trabajadores y trabajadoras ?¿Diferentes sueldos, mismo trabajo?
+                        <p class="texto">Según el último censo realizado en Chile, el 51% de su poblacion es del sexo femenino y el 49% masculino.
+                            Nuestro país, según diferentes indicadores económicos, sociales y culturales presenta una brecha de género de un 72,3 %. Esta diferencias se debe a:
+                            ¿Nivel educacional?¿Tipo de carrera estudiada?¿Cantidad de trabajadores y trabajadoras ?¿Diferentes sueldos, mismo trabajo?
                             ¿Cómo podemos explicar esta gran brecha entre el sexo masculino y femenino? 
                             
                         </p>
@@ -178,7 +178,7 @@
 
                     <div  class="cont_enlace_educacion">
                         <div id="selecionar_nivel"class="seleciona_nivel">
-                            <p>SELECCIONA UNA CANTIDAD
+                            <p>SELECCIONA UN RANGO
                             </p>
                         </div>
                         <div class="nivel">
@@ -187,7 +187,7 @@
                             <a id="sec">7 a 9 años</a> 
                             <a id="tec">10 a 12 años</a>  
                             <a id="uni">13 a 15 años</a> 
-                            <a id="post">16 a 18 años o más</a>    
+                            <a id="post">Sobre 16 años</a>    
                         </div>
                     </div>
                 </div>            
@@ -293,6 +293,7 @@
                     <h2>Titulación</h2>
                     <div id="titulacion-container"></div>
                     <p id="porcentaje_titul">Cargando...</p>
+                    
                     <script>
                         const buttons = ["#agricultura", "#ciencias", "#sociales", "#educacion", "#humanidades", "#ingenieria", "#salud", "#servicios"];
                         // Codigo sacado de https://www.d3-graph-gallery.com/graph/pie_basic.html
@@ -332,14 +333,14 @@
                         
                                                 
                         // create 2 data_set
-                        var data_matr_1 = {a: 48.96, b: 51.04}
-                        var data_matr_2 = {a: 22.34, b: 77.66}
-                        var data_matr_3 = {a: 54.75, b:45.25}
-                        var data_matr_4 = {a:75.19, b:24.81}
-                        var data_matr_5 = {a:53.22, b:46.78}
-                        var data_matr_6 = {a:19.23, b:80.77}
-                        var data_matr_7 = {a:74.99, b:24.01}
-                        var data_matr_8 = {a:46.47, b:53.53}
+                        var data_matr_1 = {a: 55, b: 45}
+                        var data_matr_2 = {a: 22, b: 78}
+                        var data_matr_3 = {a: 57, b:43}
+                        var data_matr_4 = {a:80, b:20}
+                        var data_matr_5 = {a:54, b:46}
+                        var data_matr_6 = {a:20, b:80}
+                        var data_matr_7 = {a:76, b:24}
+                        var data_matr_8 = {a:51, b:49}
                     
                         // set the dimensions and margins of the graph
                         var width = 370
@@ -472,6 +473,12 @@
             <h1 id='rama_de_actividad' class="titulo_principal">RAMA DE ACTIVIDAD</h1>
             <p class="texto">Es un término que se usa en el ámbito económico para hablar de las distintas categorías que pertenecen a una labor determinada. Estas actividades, tareas o trabajos funcionan de manera autónoma para su correcta explotación.</p>
             <div id="ramaactividad">
+            <div id="tex_fem">
+                <img src="Imagenes/mujer.svg">
+            </div>
+            <div id="tex_masc">
+                <img src="Imagenes/hombre.svg">
+            </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
                     <defs>
                         <style>
@@ -485,22 +492,33 @@
                             .cls-3 {
                                 fill-rule: evenodd;
                             }
+                            #circ_grande{
+                                fill:#403f49
+                            }
+                            .cls-10{
+                                fill: #b3e6e0;
+                            }
+                            .cls-11{
+                                fill: #ff5757;
+                            }
                         </style>
                     </defs>
                     <g id="im_20" data-name="im 20">
-                        <circle class="cls-1" cx="541.08" cy="541.93" r="350" />
+                        <circle id="circ_grande" cx="541.08" cy="541.93" r="350" />
+
+                        <g>
+                        </g>
                         <text  x="50%" y="35%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="tit_info">titulo al seleccionar</text>
                         <text  x="50%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="cambio">RAMA DE ACTIVIDAD</text>
-                        <text  x="35%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="tex_fem">Porcentaje F trabajando:</text>
-                        <text  x="65%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="tex_masc">Porcentaje M trabajando:</text>
-                        <text  x="35%" y="55%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_fem">Info Muj</text>
-                        <text  x="65%" y="55%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_masc">Info Masc</text>
+
+                        <text  x="45%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_fem">Info Muj</text>
+                        <text  x="65%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_masc">Info Masc</text>
                         <text  x="50%" y="65%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="text_brecha">La brecha salarial c/r a F es:</text>
                         <text  x="50%" y="70%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="brecha">Brecha</text>
                         
                     </g>
                     <g id="Actividades de servicios administrativo y de apoyo" class="circ" data-name="Actividades de servicios administrativo y de apoyo" data-fem="52 %" data-masc="48 %" data-brecha="-60.1%">
-                        <circle rel="imgtip[2]" class="cls-1" cx="540.78" cy="68.11" r="65" />
+                        <circle id="prueba" rel="imgtip[2]" class="cls-1" cx="540.78" cy="68.11" r="65" />
                         <path rel="imgtip[2]" class="cls-2" d="M513.75,28.3a1.13,1.13,0,0,1-1.12-1.13V23.62a2.72,2.72,0,0,1,2.72-2.73h24.71a1.14,1.14,0,0,1,0,2.26H515.35a.48.48,0,0,0-.47.47v3.53a1.13,1.13,0,0,1-1.11,1.15h0Z" />
                         <path rel="imgtip[2]" class="cls-2" d="M569.06,29a1.13,1.13,0,0,1-1.13-1.13h0V23.62a.47.47,0,0,0-.45-.5H545.91a1.13,1.13,0,0,1,0-2.26h21.55a2.73,2.73,0,0,1,2.73,2.72v4.26a1.13,1.13,0,0,1-1.1,1.16h0Z" />
                         <path
@@ -574,7 +592,7 @@
                         <circle rel="imgtip[4]" class="cls-1" cx="819.17" cy="159.07" r="65" />
                         <path
                             rel="imgtip[4]"
-                            class="cls-3"
+                            class="cls-2"
                             d="M864.08,194.56a19.94,19.94,0,0,0-2.87-8.63,61.8,61.8,0,0,0-5-7.5,1.89,1.89,0,0,0-2.64-.29,2.54,2.54,0,0,0-.28.29,61.88,61.88,0,0,0-5,7.5,20.21,20.21,0,0,0-2.87,8.63,9.38,9.38,0,0,0,18.75,0Zm-9.37-11.87a57,57,0,0,0-3.23,5.06,16,16,0,0,0-2.4,6.81,5.63,5.63,0,0,0,11.25,0,16,16,0,0,0-2.4-6.81A56.89,56.89,0,0,0,854.71,182.69Zm-19.39-20a18.75,18.75,0,0,1-32.47,0H789.08v1.88a5.62,5.62,0,0,1-5.62,5.62H776a1.88,1.88,0,0,1-1.88-1.87v-30a1.88,1.88,0,0,1,1.88-1.88h7.5a5.63,5.63,0,0,1,5.62,5.63v1.87h13.77a18.73,18.73,0,0,1,6.86-6.86v-8.14a3.75,3.75,0,0,1,3.75-3.75h3.75v-7.5h-9.38a1.88,1.88,0,0,1,0-3.75h22.5a1.88,1.88,0,1,1,0,3.75H821v7.5h3.75a3.75,3.75,0,0,1,3.75,3.75v8.14a18.73,18.73,0,0,1,6.86,6.86h4.39a22.51,22.51,0,0,1,22.5,22.5v5.63a1.88,1.88,0,0,1-1.88,1.87h-15a1.87,1.87,0,0,1-1.87-1.87v-5.63a3.75,3.75,0,0,0-3.75-3.75Zm1.65-15a18.77,18.77,0,0,1,0,11.25h2.74a7.5,7.5,0,0,1,7.5,7.5v3.75h11.25v-3.75a18.76,18.76,0,0,0-18.75-18.75Zm-11.34-7.87a15,15,0,0,0-13.13,0,.66.66,0,0,1-.24.11,15,15,0,0,0-6.58,6.6,1.36,1.36,0,0,1-.13.24,15,15,0,0,0,0,13.13c.05.08.09.16.13.24a15,15,0,0,0,26.73,0,1.49,1.49,0,0,1,.14-.24,15,15,0,0,0,0-13.13,1,1,0,0,1-.14-.24,15,15,0,0,0-6.58-6.6A.78.78,0,0,1,825.63,139.81Zm-42.17.37h-5.63v26.25h5.63a1.87,1.87,0,0,0,1.87-1.87v-22.5A1.88,1.88,0,0,0,783.46,140.18Zm17.74,7.5H789.08v11.25H801.2A18.62,18.62,0,0,1,801.2,147.68Zm12.26-12.26a18.77,18.77,0,0,1,11.25,0v-6.49H813.46Z"
                         />
                     </g>

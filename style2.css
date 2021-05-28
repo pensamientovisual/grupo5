@@ -30,7 +30,7 @@ nav {
   color: #fff;
   font-family: "Karla", sans-serif;
 }
-
+;
 #porcentaje_brecha{
   color: #fff;
   font-family: "Karla", sans-serif;
@@ -299,10 +299,12 @@ li {
   display:none;
 }
 #tex_fem{
-  display:none;
+  /*display:none;*/
+  position: relative; left: 300px
 }
 #tex_masc{
-  display:none;
+  /*display:none;*/
+  position: relative;
 }
 #text_brecha{
   display:none;

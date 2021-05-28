@@ -16,16 +16,22 @@ $(document).ready(function(){
     var post=$("#post")
     var circulos=$(".circ")
     var grande=$("#im_20")
+    var fondos=$('.cls-1')
     
-
-
-    circulos.mouseenter(function(){
-        $(this).css('opacity','0.5');
+    fondos.mouseenter(function(){
+        fondos.css("fill","#403f49");
+        $(this).css("fill","#49ada4");
+        var fondo = $(this);
+        var lineas=$(".cls-2");
+        lineas.mouseenter(function(){
+            fondos.css("fill","#403f49");
+            fondo.css("fill","#49ada4")});
     });
-    circulos.mouseleave(function(){
-        $(this).css('opacity','1');
-        
+    
+    fondos.mouseleave(function(){
+        $(this).css("fill","#403f49");
     });
+    
     circulos.click(function(){
         var info=$(this).attr("data-name");
         var fem=$(this).attr("data-fem");
@@ -35,8 +41,8 @@ $(document).ready(function(){
         $("#info_fem").show();
         $("#info_masc").show();
         $("#brecha").show();
-        $("#tex_fem").show();
-        $("#tex_masc").show();
+        /*$("#tex_fem").show();
+        $("#tex_masc").show();*/
         $("#text_brecha").show();
         $("#tit_info").text(info);
         $("#info_fem").text(fem);
@@ -44,7 +50,7 @@ $(document).ready(function(){
         $("#brecha").text(brecha);
         $("#cambio").hide();
 
-    })
+    });
     sined.click(function(){
         $("#sin_educacion").fadeTo("fast",1);
         $("#primaria").fadeTo("fast",0);
@@ -96,7 +102,7 @@ $(document).ready(function(){
     
 
 
-/*
+    /*
     var width= 300
     height=300
     margin=20
@@ -154,18 +160,13 @@ $(document).ready(function(){
         $(this).css("background","#403f49");
         //$("#Nombre_Rama").text("")
     })
-*/
+    constInfoPagina = {
+    {
+         nombre: fsdakhfdsa,
+         cantidadCLicks: 565,
 
+    }
+ }
 
-
-})
-
-// constInfoPagina = {
-//     {
-//         nombre: fsdakhfdsa,
-//         cantidadCLicks: 565,
-
-//     }
-// }
-
-// .json
+    */
+});
