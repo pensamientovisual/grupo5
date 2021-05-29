@@ -299,13 +299,44 @@ li {
   display:none;
 }
 #tex_fem{
-  /*display:none;*/
-  position: relative; left: 300px
+  /*opacity: 0;*/
+  /*visibility: hidden;*/
+  position: relative; left: 280px; top: 300px;
+  width: 50px;
+  z-index: 2;
+
 }
 #tex_masc{
-  /*display:none;*/
-  position: relative;
+  /*opacity: 0;*/
+  /* */
+  /*visibility: hidden;*/
+  position: relative;left: 340px; top: 300px;
+  width: 50px;
+  z-index: 2;
+/*   */
+}
+#ramita{
+  min-width: 650px;
+  min-height: 650px;
 }
 #text_brecha{
   display:none;
+}
+
+#pie_pagina{
+  margin-top: 100px;
+  padding: 0;
+  box-sizing: border-box;
+  background: #403f49 ;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+
+}
+
+footer{
+  
+  background: #403f49 ;
+  height: 200px;
+  width: auto;
+  
 }

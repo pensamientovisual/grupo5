@@ -195,33 +195,33 @@
                 <div id='graficos_educacion'>
                     <ul class="slider">
                         <li id="sin_educacion" class="personas">
-                            <img id="foto_sin_educacion"src="Imagenes/Sin_educacion.svg" height='750px';
+                            <img id="foto_sin_educacion"src="Imagenes/0 a 3 años.svg" height='750px';
                             width= "750px"> 
                         
                         </li>
 
                         <li id="primaria" class="personas">
-                            <img id="foto_primaria"src="Imagenes/Primaria.svg" height='750px';
+                            <img id="foto_primaria"src="Imagenes/4 a 6 años.svg" height='750px';
                             width= "750px">
                         </li>
 
                         <li id="secundaria" class="personas">
-                            <img id="foto_secundaria"src="Imagenes/Secundaria.svg" height='750px';
+                            <img id="foto_secundaria"src="Imagenes/7 a 9 años.svg" height='750px';
                             width= "750px">
                         </li>
 
                         <li id="tecnica" class="personas">
-                            <img id="foto_tecnica"src="Imagenes/Tecnica.svg" height='750px';
+                            <img id="foto_tecnica"src="Imagenes/10 a 12 años.svg" height='750px';
                             width= "750px">
                         </li>
 
                         <li id="universitaria" class="personas">
-                            <img id="foto_universitaria"src="Imagenes/Universitaria.svg" height='750px';
+                            <img id="foto_universitaria"src="Imagenes/13 a 15 años.svg" height='750px';
                             width= "750px">
                         </li>
 
                         <li id="postgrado" class="personas">
-                            <img id="foto_postgrado"src="Imagenes/Postgrado.svg" height='750px';
+                            <img id="foto_postgrado"src="Imagenes/Sobre 16.svg" height='750px';
                             width= "750px">
                         </li>
 
@@ -277,14 +277,14 @@
                             <p>SELECCIONA UNA CARRERA</p>
                         </div>
                         <div class="carreras">
-                            <a id="agricultura" onclick="update(data_titul_1, data_matr_1, '#agricultura')" >Agricultura</a> 
-                            <a id='ciencias' onclick="update(data_titul_2, data_matr_2, '#ciencias')" >Ciencias</a> 
-                            <a id='sociales' onclick="update(data_titul_3, data_matr_3, '#sociales')" >Ciencias sociales, Derecho y Enseñanza Comercial</a> 
-                            <a id='educacion' onclick="update(data_titul_4, data_matr_4, '#educacion')" >Educación</a>  
-                            <a id='humanidades' onclick="update(data_titul_5, data_matr_5, '#humanidades')" >Humanidades</a> 
-                            <a id='ingenieria' onclick="update(data_titul_6, data_matr_6, '#ingenieria')" >Ingeniería, Industria y Construcción</a>    
-                            <a id='salud' onclick="update(data_titul_7, data_matr_7, '#salud')" >Salud y Servicios Sociales</a> 
-                            <a id='servicios' onclick="update(data_titul_8, data_matr_8, '#servicios')" >Servicios</a> 
+                            <a id="agricultura" onclick="update(data1, '#agricultura')" >Agricultura</a> 
+                            <a id='ciencias' onclick="update(data2, '#ciencias')" >Ciencias</a> 
+                            <a id='sociales' onclick="update(data3, '#sociales')" >Ciencias sociales, Derecho y Enseñanza Comercial</a> 
+                            <a id='educacion' onclick="update(data4, '#educacion')" >Educación</a>  
+                            <a id='humanidades' onclick="update(data5, '#humanidades')" >Humanidades</a> 
+                            <a id='ingenieria' onclick="update(data6, '#ingenieria')" >Ingeniería, Industria y Construcción</a>    
+                            <a id='salud' onclick="update(data7, '#salud')" >Salud y Servicios Sociales</a> 
+                            <a id='servicios' onclick="update(data8, '#servicios')" >Servicios</a> 
                         </div>
                     </div>
                 </div>
@@ -292,8 +292,6 @@
                 <div id="titulacion" class = "subtitulo">
                     <h2>Titulación</h2>
                     <div id="titulacion-container"></div>
-                    <p id="porcentaje_titul">Cargando...</p>
-                    
                     <script>
                         const buttons = ["#agricultura", "#ciencias", "#sociales", "#educacion", "#humanidades", "#ingenieria", "#salud", "#servicios"];
                         // Codigo sacado de https://www.d3-graph-gallery.com/graph/pie_basic.html
@@ -307,13 +305,6 @@
                         var radius = Math.min(width, height) / 2 - margin
                         
                         // append the svg object to the div called 'my_dataviz'
-                        var titul = d3.select("#titulacion-container")
-                          .append("svg")
-                            .attr("width", width)
-                            .attr("height", height)
-                          .append("g")
-                            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-
                         var matr = d3.select("#matriculas-container")
                         .append("svg")
                             .attr("width", width)
@@ -321,26 +312,17 @@
                         .append("g")
                             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
                         
-                        // create 2 data_set
-                        var data_titul_1 = {c: 46, e: 54}
-                        var data_titul_2 = {c: 22, e: 78}
-                        var data_titul_3 = {c: 57, e: 43}
-                        var data_titul_4 = {c: 79, e: 21}
-                        var data_titul_5 = {c: 56, e: 44}
-                        var data_titul_6 = {c: 18, e: 82}
-                        var data_titul_7 = {c: 78, e: 22}
-                        var data_titul_8 = {c: 49, e: 51}
                         
                                                 
                         // create 2 data_set
-                        var data_matr_1 = {a: 55, b: 45}
-                        var data_matr_2 = {a: 22, b: 78}
-                        var data_matr_3 = {a: 57, b:43}
-                        var data_matr_4 = {a:80, b:20}
-                        var data_matr_5 = {a:54, b:46}
-                        var data_matr_6 = {a:20, b:80}
-                        var data_matr_7 = {a:76, b:24}
-                        var data_matr_8 = {a:51, b:49}
+                        var data1 = {a: 55, b: 45}
+                        var data2 = {a: 22, b: 78}
+                        var data3 = {a: 57, b:43}
+                        var data4 = {a:80, b:20}
+                        var data5 = {a:54, b:46}
+                        var data6 = {a:20, b:80}
+                        var data7 = {a:76, b:24}
+                        var data8 = {a:51, b:49}
                     
                         // set the dimensions and margins of the graph
                         var width = 370
@@ -356,37 +338,13 @@
                           .range(["#ff5757","#b3e6e0"])
                         
                         // A function that create / update the plot for a given variable:
-                        function update(data_titul, data_matr, id) {
+                        function update(data_matr, id) {
                         // Update Titulacion
                           // Update text
-                          $("#porcentaje_titul").text(`${Math.round(data_titul.c)}% mujeres.`)
                           // Compute the position of each group on the pie:
                           var pie = d3.pie()
                             .value(function(d) {return d.value; })
                             .sort(function(a, b) { console.log(a) ; return d3.ascending(a.key, b.key);} ) // This make sure that group order remains the same in the pie chart
-                          var data_ready = pie(d3.entries(data_titul))
-                        
-                          // map to data
-                          var u = titul.selectAll("path")
-                            .data(data_ready)
-                        
-                          // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
-                          u
-                            .enter()
-                            .append('path')
-                            .merge(u)
-                            .attr('d', d3.arc()
-                              .innerRadius(0)
-                              .outerRadius(radius)
-                            )
-                            .attr('fill', function(d){ return(color(d.data.key)) })
-                            .attr("stroke", "#252525")
-                            .style("stroke-width", "5px")
-                            .style("opacity", 1)
-                          // remove the group that is not present anymore
-                          u
-                            .exit()
-                            .remove()
                         // Update Matriculas
                         // Update percentage text
                         $("#porcentaje_matr").text(`${Math.round(data_matr.a)}% mujeres.`)
@@ -438,9 +396,10 @@
                         }
                         
                         // Initialize the plot with the first dataset
-                        update(data_titul_1, data_matr_1)
+                        update(data1)
                         
                         </script>
+
                   
                 </div>
             </div>
@@ -475,10 +434,12 @@
             <div id="ramaactividad">
             <div id="tex_fem">
                 <img src="Imagenes/mujer.svg">
+                <text></text>
             </div>
             <div id="tex_masc">
                 <img src="Imagenes/hombre.svg">
-            </div>
+                <text></text>
+            </div id="ramita">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
                     <defs>
                         <style>
@@ -896,7 +857,17 @@
             <div>
                 <h2 class = "subtitulo">¿Dónde puedo ayudar?</h2>
             </div>
-        </div>        
+        </div>  
+        
+        <footer class="footer">
+            <div class="container_footer">
+                
+
+            </div>
+ 
+
+      
+        </footer>
         
     </body>
 
