@@ -1,5 +1,4 @@
-/* Image w/ description tooltip v2.0
-* Created: April 23rd, 2010. This notice must stay intact for usage 
+/* Image w/ description toolt* Created: April 23rd, 2010. This notice must stay intact for usage 
 * Author: Dynamic Drive at http://www.dynamicdrive.com/
 * Visit http://www.dynamicdrive.com/ for full source code
 */
@@ -19,7 +18,7 @@ var ddimgtooltip={
 		tooltips[3]=["", "Agricultura, ganadería, silvicultura y pesca", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
 		tooltips[4]=["", "Suministro de agua; evacuación de aguas", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
 		tooltips[5]=["", "Actividades artísticas, de entretenimiento", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
-		tooltips[6]=["", "Actividades financieras y de seguros", {background:"#403f49", width:"200px", height:"90px", color: "#fff", border:"5px"}]
+		tooltips[6]=["", "Actividades financieras y de seguros", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
 		tooltips[7]=["", "Construcción", {background:"#403f49", width:"200px", height:"40px", color: "#fff", border:"5px"}]
 		tooltips[8]=["", "Comercio al por mayor y al por menor", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
 		tooltips[9]=["", "Suministro; de electricidad, gas, vapor", {background:"#403f49", width:"200px", height:"60px", color: "#fff", border:"5px"}]
@@ -114,3 +113,4 @@ var ddimgtooltip={
 
 //ddimgtooltip.init("targetElementSelector")
 ddimgtooltip.init("*[rel^=imgtip]")    
+        3n
