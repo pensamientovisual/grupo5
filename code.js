@@ -41,10 +41,8 @@ $(document).ready(function(){
         $("#info_fem").show();
         $("#info_masc").show();
         $("#brecha").show();
-        $("#tex_masc").show();
-        $("#tex_fem").show();
-        /*$("#tex_fem").css("visibility", "visible");
-        $("#tex_masc").css("visibility", "visible");*/
+        $("#tex_fem").css("visibility", "visible");
+        $("#tex_masc").css("visibility", "visible");
         $("#text_brecha").show();
         $("#tit_info").text(info);
         $("#info_fem").text(fem);
@@ -172,3 +170,4 @@ $(document).ready(function(){
 
     */
 });
+

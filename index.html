@@ -15,6 +15,7 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         </style>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     
     <body id="fondo">
@@ -149,11 +150,12 @@
                     <p class="texto"> La brecha de género es una medida que muestra la distancia entre el sexo femenino y masculino frente a un mismo indicador. Esta refleja la diferencia que existe entre ambos sexos respecto a oportunidades de acceso y control de recursos sociales, económicos, culturales y políticos entre otros (Villoro, 1997, Cepal) .</p>
                     <div id="contexto_nacional">
                         <h2 class="subtitulo">Contexto nacional</h2>
-                        <p class="texto">Según el último censo realizado en Chile, el 51% de su poblacion es del sexo femenino y el 49% masculino.
+                        <div class="texto">Según el último censo realizado en Chile, el </div><div class="texto">51%</div>51% de su poblacion es del sexo femenino y el 49% masculino.
                             Nuestro país, según diferentes indicadores económicos, sociales y culturales presenta una brecha de género de un 72,3 %. Esta diferencias se debe a:
                             ¿Nivel educacional?¿Tipo de carrera estudiada?¿Cantidad de trabajadores y trabajadoras ?¿Diferentes sueldos, mismo trabajo?
                             ¿Cómo podemos explicar esta gran brecha entre el sexo masculino y femenino? 
                             
+
                         </p>
                     </div>
                     <div id="recorrer_la_injusticia">
@@ -195,34 +197,34 @@
                 <div id='graficos_educacion'>
                     <ul class="slider">
                         <li id="sin_educacion" class="personas">
-                            <img id="foto_sin_educacion"src="Imagenes/0 a 3 años.svg" height='750px';
-                            width= "750px"> 
+                            <img id="foto_sin_educacion"src="Imagenes/0 a 3 años.svg" height='850px';
+                            width= "850px"> 
                         
                         </li>
 
                         <li id="primaria" class="personas">
-                            <img id="foto_primaria"src="Imagenes/4 a 6 años.svg" height='750px';
-                            width= "750px">
+                            <img id="foto_primaria"src="Imagenes/4 a 6 años.svg" height='850px';
+                            width= "850px">
                         </li>
 
                         <li id="secundaria" class="personas">
-                            <img id="foto_secundaria"src="Imagenes/7 a 9 años.svg" height='750px';
-                            width= "750px">
+                            <img id="foto_secundaria"src="Imagenes/7 a 9 años.svg" height='850px';
+                            width= "850px">
                         </li>
 
                         <li id="tecnica" class="personas">
-                            <img id="foto_tecnica"src="Imagenes/10 a 12 años.svg" height='750px';
-                            width= "750px">
+                            <img id="foto_tecnica"src="Imagenes/10 a 12 años.svg" height='850px';
+                            width= "850px">
                         </li>
 
                         <li id="universitaria" class="personas">
-                            <img id="foto_universitaria"src="Imagenes/13 a 15 años.svg" height='750px';
-                            width= "750px">
+                            <img id="foto_universitaria"src="Imagenes/13 a 15 años.svg" height='850px';
+                            width= "850px">
                         </li>
 
                         <li id="postgrado" class="personas">
-                            <img id="foto_postgrado"src="Imagenes/Sobre 16.svg" height='750px';
-                            width= "750px">
+                            <img id="foto_postgrado"src="Imagenes/Sobre 16.svg" height='850px';
+                            width= "850px">
                         </li>
 
                     </ul>
@@ -432,16 +434,17 @@
             <h1 id='rama_de_actividad' class="titulo_principal">RAMA DE ACTIVIDAD</h1>
             <p class="texto">Es un término que se usa en el ámbito económico para hablar de las distintas categorías que pertenecen a una labor determinada. Estas actividades, tareas o trabajos funcionan de manera autónoma para su correcta explotación.</p>
             <div id="ramaactividad">
-            <div id="tex_fem">
-                <img src="Imagenes/mujer.svg">
-                <text></text>
-            </div>
-            <div id="tex_masc">
-                <img src="Imagenes/hombre.svg">
-                <text></text>
-            </div id="ramita">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
-                    <defs>
+                <div id="tex_fem">
+                    <img src="Imagenes/mujer.svg">
+                    <text></text>
+                </div>
+                <div id="tex_masc">
+                    <img src="Imagenes/hombre.svg">
+                    <text></text>
+                </div>
+                <div class="circle-container">
+                <svg id="ramita" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+                    <defs>x
                         <style>
                             .cls-1 {
                                 fill: #403f49;
@@ -469,13 +472,12 @@
 
                         <g>
                         </g>
-                        <text  x="50%" y="35%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="tit_info">titulo al seleccionar</text>
-                        <text  x="50%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="cambio">RAMA DE ACTIVIDAD</text>
-
-                        <text  x="45%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_fem">Info Muj</text>
-                        <text  x="65%" y="50%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="info_masc">Info Masc</text>
-                        <text  x="50%" y="65%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="text_brecha">La brecha salarial c/r a F es:</text>
-                        <text  x="50%" y="70%" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="brecha">Brecha</text>
+                        <text  x="50%" y="35%" font-family= "Roboto" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="tit_info">titulo al seleccionar</text>
+                        <text  x="50%" y="50%" font-family= "Roboto" text-anchor="middle"  style="font-size: 30px;" fill="#fff" id="cambio">RAMA DE ACTIVIDAD</text>
+                        <text  x="40%" y="50%" font-family= "Roboto" text-anchor="middle"  style="font-size: 50px;" fill="#fff" id="info_fem">Info Muj</text>
+                        <text  x="70%" y="50%" font-family= "Roboto" text-anchor="middle"  style="font-size: 50px;" fill="#fff" id="info_masc">Info Masc</text>
+                        <text  x="50%" y="63%" font-family= "Roboto" text-anchor="middle"  style="font-size: 40px;" fill="#fff" id="text_brecha">Las mujeres ganan:</text>
+                        <text  x="50%" y="70%" font-family= "Roboto" text-anchor="middle"  style="font-size: 50px;" fill="#fff" id="brecha">Brecha</text>
                         
                     </g>
                     <g id="Actividades de servicios administrativo y de apoyo" class="circ" data-name="Actividades de servicios administrativo y de apoyo" data-fem="52 %" data-masc="48 %" data-brecha="-60.1%">
@@ -839,6 +841,7 @@
                     </g>
                 </svg>
             </div>
+            </div>
             <div id="testimonios" class = "subtitulo">
                 <h2>Testimonio</h2> 
 
@@ -861,13 +864,43 @@
         
         <footer class="footer">
             <div class="container_footer">
-                
+                <div class="filas">
+                    <div class="columna">
+                        <h4>Integrantes</h4>
+                        <ul>
+                            <li><a >Macarena Rios</a></li>
+                            <li><a >Maria Jose Millan</a></li>
+                            <li><a >Laura Palacios</a></li>
+                            <li><a >Tomas Vargas</a></li>
+                            <li><a >Ferran Almeda</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="columna">
+                        <h4>Redes sociales</h4>
+                        <div class="redes_sociales">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+
+ 
+                    </div>
+
+                    <div class="columna">
+                        <h4>Contactanos</h4>
+                        <ul>
+                            <li><a >algun.correo.inventado@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                </div>
 
             </div>
+        </footer>
+        <div class="laura">
  
 
       
-        </footer>
+        
         
     </body>
 

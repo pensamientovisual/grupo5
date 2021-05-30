@@ -299,44 +299,112 @@ li {
   display:none;
 }
 #tex_fem{
-  /*opacity: 0;*/
-  /*visibility: hidden;*/
-  position: relative; left: 280px; top: 300px;
-  width: 50px;
+  visibility: hidden;
+  position: relative; left: 240px; top: 290px;
+  min-width: 60px;
+  max-height: 60px;
   z-index: 2;
 
 }
 #tex_masc{
-  /*opacity: 0;*/
   /* */
-  /*visibility: hidden;*/
-  position: relative;left: 340px; top: 300px;
-  width: 50px;
+  visibility: hidden;
+  position: relative;left: 360px; top: 290px;
+  min-width: 60px;
+  max-height: 60px;
   z-index: 2;
 /*   */
 }
 #ramita{
-  min-width: 650px;
-  min-height: 650px;
+  width: 650px;
+  height: 650px;
+  position: relative; right: 10%; 
 }
+
+.circle-container {
+  margin: auto;
+  text-align: center;
+}
+
 #text_brecha{
   display:none;
-}
-
-#pie_pagina{
-  margin-top: 100px;
-  padding: 0;
-  box-sizing: border-box;
-  background: #403f49 ;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-
 }
 
 footer{
   
   background: #403f49 ;
-  height: 200px;
+  height: auto;
   width: auto;
+  color: #fff;
+  font-family: "Karla", sans-serif;
   
+}
+
+.container_footer{
+  margin: 0;
+  padding: 15px 0;
+  box-sizing: border-box;
+  max-width: 1170px;
+}
+ul{
+  list-style: none;
+}
+
+.filas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna{
+  width: 30%;
+  padding: 0;
+}
+
+.columna h4{
+  font-size: 18px;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+.columna h4::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #49ada4;
+  height: 4px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.columna ul li:not(:last-child){
+  margin-bottom:10px;
+}
+.columna ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: 0.3s ease;
+}
+.columna ul li a:hover{
+  color: #fff;
+  padding-left: 8px;
+}
+
+.columna .redes_sociales a{
+  display: inline-block;
+
+  margin: 4px 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color:#fff
+}
+.container_footer{
+  margin-left: 40px;
 }
